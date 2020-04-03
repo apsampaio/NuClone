@@ -1,0 +1,50 @@
+.Header {
+  position: fixed;
+  display: flex;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  height: 80px;
+  padding-left: 32px;
+
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header svg {
+  height: 45px;
+  width: 45px;
+}
+
+.Header span {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(118, 118, 118);
+  transition: all 200ms ease-in-out 0s;
+}
+
+.Header span:nth-child(7n + 2) {
+  color: #8a05be;
+}
+.Header span:hover {
+  cursor: pointer;
+  color: #ba4de3;
+}
+
+.Header button {
+  background-color: #8a05be;
+  color: #fff;
+  padding: 19px 32px;
+  font-size: 18px;
+  border: none;
+  height: 80px;
+}
+
+.Header button:hover {
+  background-color: #ba4de3;
+  cursor: pointer;
+}
