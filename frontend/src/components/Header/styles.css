@@ -1,6 +1,6 @@
 .Header {
   position: fixed;
-  display: flex;
+  display: inline-flex;
   left: 0;
   right: 0;
   top: 0;
@@ -13,21 +13,29 @@
 
   align-items: center;
   justify-content: space-between;
+
+  z-index: 5;
 }
 
 .Header svg {
   height: 45px;
   width: 45px;
+  cursor: pointer;
+}
+
+.Header div {
+  width: 917px;
 }
 
 .Header span {
-  font-size: 16px;
-  font-weight: 500;
-  color: rgb(118, 118, 118);
+  font-size: 18px;
+  padding: 19px 12px;
+  color: #767676;
   transition: all 200ms ease-in-out 0s;
+  font-weight: 400;
 }
 
-.Header span:nth-child(7n + 2) {
+.Header .purple {
   color: #8a05be;
 }
 .Header span:hover {
