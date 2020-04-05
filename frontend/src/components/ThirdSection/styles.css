@@ -1,0 +1,43 @@
+.third-section {
+  display: flex;
+  height: 545px;
+}
+
+.third-section div {
+  display: flex;
+  flex-direction: column;
+  max-width: 564px;
+  padding-top: 64px;
+  padding-left: 64px;
+}
+
+.third-section div span:nth-child(1) {
+  font-size: 48px;
+  color: #8a05be;
+}
+
+.third-section div span:nth-child(2) {
+  font-size: 48px;
+  color: #757575;
+  margin-bottom: 25px;
+}
+
+.third-section div span:nth-child(3) {
+  font-size: 16px;
+  color: #8a05be;
+  border-bottom: #76767675 solid 1px;
+  width: fit-content;
+  transition: linear 0.3s;
+}
+
+.third-section div span:nth-child(3):hover {
+  cursor: pointer;
+  border-bottom: #8a05be solid 1px;
+}
+
+.third-section img {
+  padding-left: 400px;
+  width: calc(227px + 400px);
+  height: 500px;
+  align-self: flex-end;
+}

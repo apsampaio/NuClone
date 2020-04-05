@@ -35,4 +35,10 @@ O NuClone é um projeto feito para praticar e melhorar minhas habilidades em Rea
   <img alt="Mobile" src="github/mobile.png" width="100%">
 </p>
 
+## 💻 Web
+
+<p align="center">
+  <img alt="Mobile" src="github/frontend.gif" width="100%">
+</p>
+
 Feito com ♥ by Andre Sampaio :wave:
